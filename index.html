@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced HTML</title>
+</head>
+<body> 
+    <!-- Header -->
+    <header>
+        <h1>Advanced HTML</h1>
+    </header>
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <!-- Main Content -->
+    <main>
+        <section id="home">
+                <ol type="I">
+                    <li>Item 1</li>
+                    <li>Item 2</li>
+                    <li>Item 3</li>
+                    <li>Item 4</li>
+                </ol>
+        </section>
+        <section id="about">
+            <img src="https://images.pexels.com/photos/31001132/pexels-photo-31001132/free-photo-of-vibrant-shinjuku-street-at-night-in-tokyo.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="Placeholder Image" width = "500">
+        </section>
+        <section id="services">
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Address</th>
+                        <th>Mobile</th>
+                        <th>Email</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Gift W</td>
+                        <td>Nairobi</td>
+                        <td>123 456 789</td>
+                        <td>wandanelson287@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>Gift W</td>
+                        <td>Nairobi</td>
+                        <td>123 456 789</td>
+                        <td>wandanelson287@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>Gift W</td>
+                        <td>Nairobi</td>
+                        <td>123 456 789</td>
+                        <td>wandanelson287@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>Gift W</td>
+                        <td>Nairobi</td>
+                        <td>123 456 789</td>
+                        <td>wandanelson287@gmail.com</td>
+                    </tr>
+                </tbody>    
+            </table>
+        </section>
+        <section id="contact-form">
+            <!-- Registration Form -->
+            <h2>Registration Form</h2>
+            <form action="#" method="post">
+                <!-- Name Field -->
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                <br><br>
+
+                <!-- Email Field -->
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                <br><br>
+
+                <!-- Password Field -->
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password" required>
+                <br><br>
+
+                <!-- Date Field -->
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="d.o.b" name="d.o.b" required>
+                <br><br>
+
+                <!-- Dropdown Selection -->
+                <label for="language">Select language:</label>
+                <select id="language" name="language" required>
+                    <option value="">--Select--</option>
+                    <option value="kenya">HTML</option>
+                    <option value="uganda">Python</option>
+                    <option value="tanzania">SQL</option>
+                </select>
+                <br><br>
+
+                <!-- Radio Buttons -->
+                <label>Gender:</label>
+                <input type="radio" id="male" name="gender" value="male" required>
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female" required>
+                <label for="female">Female</label>
+                <br><br>
+
+                <!-- Checkboxes -->
+                <label>Hobbies:</label>
+                <input type="checkbox" id="art" name="interests" value="art">
+                <label for="art">Art</label>
+                <input type="checkbox" id="music" name="interests" value="music">
+                <label for="music">Music</label>
+                <input type="checkbox" id="reading" name="interests" value="reading">
+                <label for="reading">Reading</label>
+                <br><br>
+
+                <!-- Submit Button -->
+                <input type="submit" value="Register">
+            </form>
+        </section>
+    </main>
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Advanced HTML</p>
+    </footer>
+</body>
